@@ -1,17 +1,11 @@
-.header {
+header {
+  margin: 0;
+  padding: 0;
   width: 100%;
   height: 150px;
   text-align: center;
   background: #101010;
-  display: block;
   font-family: Raleway;
-}
-
-.inner_header {
-  width: 80%;
-  height: 100%;
-  display: block;
-  margin: 0 auto;
 }
 
 .logo {
@@ -25,18 +19,20 @@
   width: 150px;
   display: table-cell;
   vertical-align: middle;
+  float: left;
 }
 
 .navigation {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  height: 100%;
+  margin: 0px;
+  padding: 0px;
   color: white;
+  float: right;
+  display: flex;
 }
 
 .navigation a {
-  height: 100%;
+  height: 50%;
   display: block;
   float: left;
   padding: 50px 30px;
@@ -53,4 +49,18 @@
 
 .navigation li a:hover {
   background-color: #333;
+  width: auto;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#footer {
+  margin-top: auto;
 }
