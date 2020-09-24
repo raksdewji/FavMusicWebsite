@@ -75,7 +75,12 @@ body {
 }
 
 .container {
-  width: 900px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.art_container {
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -100,6 +105,25 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
+  border-radius: 10px;
+}
+
+#artists_content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  width: 512px;
+  height: 288px;
+  text-align: center;
+}
+
+#artists_content table {
+  border-spacing: 20px;
+  display: flex;
+  flex-direction: vertical;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
