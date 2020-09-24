@@ -94,6 +94,14 @@ body {
   text-align: left;
 }
 
+#page_content img {
+  margin: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
 footer {
   margin-top: auto;
 }
