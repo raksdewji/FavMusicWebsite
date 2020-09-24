@@ -5,7 +5,7 @@ header {
   height: 150px;
   text-align: center;
   background: #101010;
-  font-family: Raleway;
+  font-family: Open Sans;
 }
 
 .logo {
@@ -44,7 +44,7 @@ header {
   font-size: 20px;
   padding: 65px 50px;
   text-decoration: none;
-  color: white;
+  color: red;
 }
 
 .navigation li a:hover {
@@ -59,8 +59,41 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #555;
 }
 
-#footer {
+#banner {
+  background-color: #222;
+  color: white;
+}
+
+#banner h1 {
+  font-size: 60px;
+  margin: 0 0;
+  text-align: center;
+  font-family: Open Sans;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#page_content {
+  text-align: center;
+}
+
+#page_content p {
+  font-family: Raleway;
+  font-size: 20px;
+  text-align: left;
+}
+
+#page_content h2 {
+  font-family: Raleway;
+  text-align: left;
+}
+
+footer {
   margin-top: auto;
 }

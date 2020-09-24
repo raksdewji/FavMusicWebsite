@@ -1,2 +1,0 @@
-# SENG513A1
-SENG513 Assignment 1
