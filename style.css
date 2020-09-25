@@ -116,6 +116,7 @@ body {
   width: 512px;
   height: 288px;
   text-align: center;
+  position: relative;
 }
 
 #artists_content table {
@@ -124,6 +125,62 @@ body {
   flex-direction: vertical;
   justify-content: center;
   align-items: center;
+}
+
+.img_hover_text_container {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  transition: all 0.2s linear;
+}
+
+.img_hover_image {
+  display: block;
+}
+
+.img_hover_text {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  opacity: 0;
+  cursor: default;
+  transition: opacity 0.2s linear;
+}
+.img_hover_text:hover {
+  opacity: 1;
+}
+
+.img_hover_text_bubble {
+  position: relative;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  right: 100%;
+  height: 288px;
+  border-radius: 8px;
+  text-align: center;
+  background: rgba(218, 211, 211, 0.81);
+  border: 1px solid #848484;
+  margin: 0 auto;
+  padding: 18% 25% 25% 25%;
+  overflow: hidden;
+  font-size: 20px;
+  font-family: Raleway;
+  word-wrap: break-word;
+}
+
+.img_hover_text .img_hover_text_title {
+  font-size: 35px;
+  display: block;
+}
+
+.fav_songs_list {
+  text-align: center;
+  display: inline-block;
+  text-align: left;
 }
 
 footer {
