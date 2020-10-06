@@ -3,7 +3,7 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> Favorite Music Website - SENG513 Assignment 1
+> Intro to HTML & CSS
 
 ## Copyright
 
